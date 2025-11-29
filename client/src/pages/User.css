@@ -1,0 +1,116 @@
+.user-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 0.1);
+}
+
+.user-container h2,
+.user-container h3 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.user-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.user-container input {
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: 1.8px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+}
+
+.user-container input:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 6px rgba(59,130,246,0.4);
+}
+
+.user-container button {
+  cursor: pointer;
+  padding: 12px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #3b82f6;
+  color: white;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.user-container button:hover:not(:disabled) {
+  background-color: #2564eb;
+}
+
+.user-container button:disabled {
+  background-color: #a5b4fc;
+  cursor: not-allowed;
+}
+
+.user-container .error-message {
+  text-align: center;
+  font-weight: 600;
+  margin-top: 10px;
+  color: red;
+}
+
+.user-container ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+}
+
+.user-container ul > li {
+  background: white;
+  margin-bottom: 12px;
+  padding: 12px 15px;
+  border-radius: 8px;
+  box-shadow: 0 1px 5px rgb(0 0 0 / 0.1);
+}
+
+.user-container ul ul > li {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 6px;
+}
+
+.user-container p {
+  text-align: center;
+  color: #555;
+  margin-top: 15px;
+}
+
+.user-container p > button {
+  border: none;
+  color: #2564eb9f;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 5px;
+  font-size: 1rem;
+  background: none;
+}
+
+.user-container p > button.toggle-auth-btn {
+  outline: none;
+  box-shadow: none;
+  transition: none;
+}
+
+.user-container p > button.toggle-auth-btn:hover,
+.user-container p > button.toggle-auth-btn:focus {
+  background: none;
+  color: #2564eb9f;
+  text-decoration: none;
+  outline: none;
+  box-shadow: none;
+}

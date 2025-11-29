@@ -1,0 +1,1394 @@
+{
+  "users": [
+    {
+      "id": "1764427072724",
+      "username": "hazarici",
+      "password": "$2b$10$Wi4Ii/z73MaQQoMhuKRcuOHIGtSbw055NdoWJg05LlrNHwKyZ6M5S",
+      "name": "Hazar",
+      "surname": "Arici",
+      "address": "Germany",
+      "paymentMethod": "Debit",
+      "orders": [
+        "1764427078435"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "1755029122722",
+      "userId": "1755029115747",
+      "items": [
+        {
+          "productId": 7,
+          "quantity": 1,
+          "price": 249,
+          "name": "AMD Ryzen 5 7600"
+        }
+      ],
+      "total": 249,
+      "date": "2025-08-12T20:05:22.722Z"
+    },
+    {
+      "id": "1755034881646",
+      "userId": "1755029115747",
+      "items": [
+        {
+          "productId": 301,
+          "quantity": 2,
+          "price": 1799,
+          "name": "Gaming Beast X1"
+        }
+      ],
+      "total": 3598,
+      "date": "2025-08-12T21:41:21.646Z"
+    },
+    {
+      "id": "1762532798042",
+      "userId": "1762532701011",
+      "items": [
+        {
+          "productId": 302,
+          "quantity": 1,
+          "price": 2899,
+          "name": "Workstation Pro Z5"
+        },
+        {
+          "productId": 125,
+          "quantity": 1,
+          "price": 2999,
+          "name": "ASUS ProArt Display PA32UCX 32\" 4K HDR"
+        },
+        {
+          "productId": 141,
+          "quantity": 1,
+          "price": 249,
+          "name": "Logitech G915 TKL Wireless"
+        },
+        {
+          "productId": 160,
+          "quantity": 1,
+          "price": 99,
+          "name": "Logitech MX Master 3S"
+        }
+      ],
+      "total": 6246,
+      "date": "2025-11-07T16:26:38.042Z"
+    },
+    {
+      "id": "1764427078435",
+      "userId": "1764427072724",
+      "items": [
+        {
+          "productId": 301,
+          "quantity": 1,
+          "price": 1799,
+          "name": "Gaming Beast X1"
+        }
+      ],
+      "total": 1799,
+      "date": "2025-11-29T14:37:58.435Z"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Intel Core i9-13900K",
+      "category": "CPU",
+      "price": 650,
+      "image": "http://localhost:5000/images/1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "AMD Ryzen 9 7950X",
+      "category": "CPU",
+      "price": 599,
+      "image": "http://localhost:5000/images/2.jpg"
+    },
+    {
+      "id": 7,
+      "name": "AMD Ryzen 5 7600",
+      "category": "CPU",
+      "price": 249,
+      "image": "http://localhost:5000/images/7.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Intel Core i7-13700K",
+      "category": "CPU",
+      "price": 429,
+      "image": "http://localhost:5000/images/8.jpg"
+    },
+    {
+      "id": 9,
+      "name": "AMD Ryzen 7 7700X",
+      "category": "CPU",
+      "price": 379,
+      "image": "http://localhost:5000/images/9.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Intel Core i5-13600K",
+      "category": "CPU",
+      "price": 319,
+      "image": "http://localhost:5000/images/10.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Intel Core i3-13100F",
+      "category": "CPU",
+      "price": 129,
+      "image": "http://localhost:5000/images/14.jpg"
+    },
+    {
+      "id": 15,
+      "name": "AMD Ryzen 3 4100",
+      "category": "CPU",
+      "price": 99,
+      "image": "http://localhost:5000/images/15.jpg"
+    },
+    {
+      "id": 16,
+      "name": "AMD Ryzen 9 7900X",
+      "category": "CPU",
+      "price": 469,
+      "image": "http://localhost:5000/images/16.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Intel Core i9-14900K",
+      "category": "CPU",
+      "price": 699,
+      "image": "http://localhost:5000/images/17.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Intel Xeon W-2295",
+      "category": "CPU",
+      "price": 1249,
+      "image": "http://localhost:5000/images/18.jpg"
+    },
+    {
+      "id": 19,
+      "name": "AMD Threadripper Pro 5975WX",
+      "category": "CPU",
+      "price": 2499,
+      "image": "http://localhost:5000/images/19.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Intel Core i5-12600KF",
+      "category": "CPU",
+      "price": 279,
+      "image": "http://localhost:5000/images/20.jpg"
+    },
+    {
+      "id": 21,
+      "name": "AMD Ryzen 5 5600X",
+      "category": "CPU",
+      "price": 199,
+      "image": "http://localhost:5000/images/21.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Intel Core i7-12700F",
+      "category": "CPU",
+      "price": 309,
+      "image": "http://localhost:5000/images/22.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Asus NVIDIA RTX 4090",
+      "category": "GPU",
+      "price": 1599,
+      "image": "http://localhost:5000/images/3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Sapphire AMD Radeon RX 7900 XTX",
+      "category": "GPU",
+      "price": 1099,
+      "image": "http://localhost:5000/images/4.jpg"
+    },
+    {
+      "id": 23,
+      "name": "MSI NVIDIA RTX 4080 Super",
+      "category": "GPU",
+      "price": 1199,
+      "image": "http://localhost:5000/images/23.jpg"
+    },
+    {
+      "id": 24,
+      "name": "MSI AMD Radeon RX 7900 XT",
+      "category": "GPU",
+      "price": 899,
+      "image": "http://localhost:5000/images/24.jpg"
+    },
+    {
+      "id": 25,
+      "name": "Asus NVIDIA RTX 4070 Ti Super",
+      "category": "GPU",
+      "price": 849,
+      "image": "http://localhost:5000/images/25.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Gigabyte AMD Radeon RX 7800 XT",
+      "category": "GPU",
+      "price": 649,
+      "image": "http://localhost:5000/images/26.jpg"
+    },
+    {
+      "id": 27,
+      "name": "PNY NVIDIA RTX 4070",
+      "category": "GPU",
+      "price": 599,
+      "image": "http://localhost:5000/images/27.jpg"
+    },
+    {
+      "id": 28,
+      "name": "Gigabyte AMD Radeon RX 7700 XT",
+      "category": "GPU",
+      "price": 479,
+      "image": "http://localhost:5000/images/28.jpg"
+    },
+    {
+      "id": 29,
+      "name": "MSI NVIDIA RTX 4060 Ti",
+      "category": "GPU",
+      "price": 399,
+      "image": "http://localhost:5000/images/29.jpg"
+    },
+    {
+      "id": 30,
+      "name": "Asus AMD Radeon RX 7600 XT",
+      "category": "GPU",
+      "price": 329,
+      "image": "http://localhost:5000/images/30.jpg"
+    },
+    {
+      "id": 31,
+      "name": "Gigabyte NVIDIA RTX 4060",
+      "category": "GPU",
+      "price": 299,
+      "image": "http://localhost:5000/images/31.jpg"
+    },
+    {
+      "id": 32,
+      "name": "Asus AMD Radeon RX 6600",
+      "category": "GPU",
+      "price": 249,
+      "image": "http://localhost:5000/images/32.jpg"
+    },
+    {
+      "id": 33,
+      "name": "MSI NVIDIA GTX 1660 Super",
+      "category": "GPU",
+      "price": 199,
+      "image": "http://localhost:5000/images/33.jpg"
+    },
+    {
+      "id": 34,
+      "name": "XFX AMD Radeon RX 6500 XT",
+      "category": "GPU",
+      "price": 169,
+      "image": "http://localhost:5000/images/34.jpg"
+    },
+    {
+      "id": 35,
+      "name": "Zotac NVIDIA RTX 3050",
+      "category": "GPU",
+      "price": 229,
+      "image": "http://localhost:5000/images/35.jpg"
+    },
+    {
+      "id": 36,
+      "name": "PowerColor AMD Radeon RX 6950 XT",
+      "category": "GPU",
+      "price": 699,
+      "image": "http://localhost:5000/images/36.jpg"
+    },
+    {
+      "id": 37,
+      "name": "Asus Tuf NVIDIA RTX 3080 Ti",
+      "category": "GPU",
+      "price": 899,
+      "image": "http://localhost:5000/images/37.jpg"
+    },
+    {
+      "id": 38,
+      "name": "NVIDIA RTX 3090",
+      "category": "GPU",
+      "price": 1199,
+      "image": "http://localhost:5000/images/38.jpg"
+    },
+    {
+      "id": 39,
+      "name": "Gigabyte AMD Radeon VII",
+      "category": "GPU",
+      "price": 699,
+      "image": "http://localhost:5000/images/39.jpg"
+    },
+    {
+      "id": 40,
+      "name": "MSI NVIDIA RTX 3070",
+      "category": "GPU",
+      "price": 499,
+      "image": "http://localhost:5000/images/40.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Corsair Vengeance 32GB 6000Mhz DDR5",
+      "category": "RAM",
+      "price": 179,
+      "image": "http://localhost:5000/images/5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "G.Skill Trident Z5 RGB 32GB 6600Mhz DDR5",
+      "category": "RAM",
+      "price": 199,
+      "image": "http://localhost:5000/images/6.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Crucial DDR5 32GB 5600MHz",
+      "category": "RAM",
+      "price": 165,
+      "image": "http://localhost:5000/images/11.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Kingston Fury Beast 64GB DDR5 6000MHz",
+      "category": "RAM",
+      "price": 299,
+      "image": "http://localhost:5000/images/12.jpg"
+    },
+    {
+      "id": 13,
+      "name": "TeamGroup T-Force Delta RGB 16GB DDR5",
+      "category": "RAM",
+      "price": 119,
+      "image": "http://localhost:5000/images/13.jpg"
+    },
+    {
+      "id": 41,
+      "name": "Corsair Dominator Platinum RGB 64GB DDR5 6600MHz",
+      "category": "RAM",
+      "price": 349,
+      "image": "http://localhost:5000/images/41.jpg"
+    },
+    {
+      "id": 42,
+      "name": "G.Skill Ripjaws S5 16GB DDR5 5600MHz",
+      "category": "RAM",
+      "price": 109,
+      "image": "http://localhost:5000/images/42.jpg"
+    },
+    {
+      "id": 43,
+      "name": "Patriot Viper Steel 32GB DDR4 3600MHz",
+      "category": "RAM",
+      "price": 139,
+      "image": "http://localhost:5000/images/43.jpg"
+    },
+    {
+      "id": 44,
+      "name": "Kingston HyperX Predator 16GB DDR4 3200MHz",
+      "category": "RAM",
+      "price": 89,
+      "image": "http://localhost:5000/images/44.jpg"
+    },
+    {
+      "id": 45,
+      "name": "Crucial Ballistix 32GB DDR4 3600MHz",
+      "category": "RAM",
+      "price": 129,
+      "image": "http://localhost:5000/images/45.jpg"
+    },
+    {
+      "id": 46,
+      "name": "Adata XPG Lancer RGB 32GB DDR5 6000MHz",
+      "category": "RAM",
+      "price": 189,
+      "image": "http://localhost:5000/images/46.jpg"
+    },
+    {
+      "id": 47,
+      "name": "Corsair Vengeance LPX 16GB DDR4 3000MHz",
+      "category": "RAM",
+      "price": 79,
+      "image": "http://localhost:5000/images/47.jpg"
+    },
+    {
+      "id": 48,
+      "name": "G.Skill Trident Z Royal 32GB DDR4 4000MHz",
+      "category": "RAM",
+      "price": 179,
+      "image": "http://localhost:5000/images/48.jpg"
+    },
+    {
+      "id": 49,
+      "name": "TeamGroup Elite 8GB DDR4 2666MHz",
+      "category": "RAM",
+      "price": 39,
+      "image": "http://localhost:5000/images/49.jpg"
+    },
+    {
+      "id": 50,
+      "name": "Kingston Fury Impact 32GB DDR4 3200MHz SO-DIMM",
+      "category": "RAM",
+      "price": 159,
+      "image": "http://localhost:5000/images/50.jpg"
+    },
+    {
+      "id": 51,
+      "name": "Corsair Vengeance 8GB DDR4 2400MHz",
+      "category": "RAM",
+      "price": 35,
+      "image": "http://localhost:5000/images/51.jpg"
+    },
+    {
+      "id": 52,
+      "name": "Patriot Signature Line 4GB DDR3 1600MHz",
+      "category": "RAM",
+      "price": 25,
+      "image": "http://localhost:5000/images/52.jpg"
+    },
+    {
+      "id": 53,
+      "name": "Samsung 32GB DDR5 5600MHz ECC",
+      "category": "RAM",
+      "price": 249,
+      "image": "http://localhost:5000/images/53.jpg"
+    },
+    {
+      "id": 54,
+      "name": "Micron 16GB DDR4 3200MHz ECC",
+      "category": "RAM",
+      "price": 99,
+      "image": "http://localhost:5000/images/54.jpg"
+    },
+    {
+      "id": 55,
+      "name": "Adata Premier 8GB DDR3 1333MHz",
+      "category": "RAM",
+      "price": 29,
+      "image": "http://localhost:5000/images/55.jpg"
+    },
+    {
+      "id": 301,
+      "name": "Gaming Beast X1",
+      "category": "ReadySystems",
+      "description": "Ryzen 7 5800X, RTX 4070, 16GB RAM, 1TB SSD",
+      "price": 1799,
+      "icon": "🖥️",
+      "image": "http://localhost:5000/images/301.jpg"
+    },
+    {
+      "id": 302,
+      "name": "Workstation Pro Z5",
+      "category": "ReadySystems",
+      "description": "Intel i9-13900K, RTX 4080, 32GB RAM, 2TB SSD",
+      "price": 2899,
+      "icon": "💻",
+      "image": "http://localhost:5000/images/302.jpg"
+    },
+    {
+      "id": 303,
+      "name": "Budget Gamer S3",
+      "category": "ReadySystems",
+      "description": "Ryzen 5 5600, RTX 3060, 16GB RAM, 512GB SSD",
+      "price": 1099,
+      "icon": "🖥️",
+      "image": "http://localhost:5000/images/303.jpg"
+    },
+    {
+      "id": 304,
+      "name": "Creator Studio M9",
+      "category": "ReadySystems",
+      "description": "Intel i7-13700K, RTX 4070 Ti, 32GB RAM, 1TB NVMe SSD",
+      "price": 2199,
+      "icon": "💻",
+      "image": "http://localhost:5000/images/304.jpg"
+    },
+    {
+      "id": 305,
+      "name": "Extreme Gamer V8",
+      "category": "ReadySystems",
+      "description": "AMD Ryzen 9 7900X, RTX 4090, 64GB RAM, 2TB NVMe SSD",
+      "price": 3999,
+      "icon": "🖥️",
+      "image": "http://localhost:5000/images/305.jpg"
+    },
+    {
+      "id": 306,
+      "name": "Compact Office B2",
+      "category": "ReadySystems",
+      "description": "Intel i5-12400, Integrated Graphics, 16GB RAM, 512GB SSD",
+      "price": 799,
+      "icon": "💻",
+      "image": "http://localhost:5000/images/306.jpg"
+    },
+    {
+      "id": 307,
+      "name": "Silent WorkPro T7",
+      "category": "ReadySystems",
+      "description": "Intel i9-14900K, RTX 4070 Super, 64GB RAM, 4TB SSD",
+      "price": 3499,
+      "icon": "💻",
+      "image": "http://localhost:5000/images/307.jpg"
+    },
+    {
+      "id": 308,
+      "name": "Mini Gamer Q5",
+      "category": "ReadySystems",
+      "description": "Ryzen 7 7700X, RTX 4060 Ti, 32GB RAM, 1TB NVMe SSD",
+      "price": 1599,
+      "icon": "🖥️",
+      "image": "http://localhost:5000/images/308.jpg"
+    },
+    {
+      "id": 309,
+      "name": "Office Basic L1",
+      "category": "ReadySystems",
+      "description": "Intel i3-13100, Integrated Graphics, 8GB RAM, 256GB SSD",
+      "price": 499,
+      "icon": "💻",
+      "image": "http://localhost:5000/images/309.jpg"
+    },
+    {
+      "id": 310,
+      "name": "Streaming Rig X9",
+      "category": "ReadySystems",
+      "description": "Intel i7-12700K, RTX 4070 Ti, 32GB RAM, 1TB NVMe SSD",
+      "price": 1899,
+      "icon": "🖥️",
+      "image": "http://localhost:5000/images/310.jpg"
+    },
+    {
+      "id": 311,
+      "name": "CAD Master P3",
+      "category": "ReadySystems",
+      "description": "AMD Threadripper Pro 5975WX, RTX 4090, 128GB RAM, 4TB NVMe SSD",
+      "price": 5999,
+      "icon": "💻",
+      "image": "http://localhost:5000/images/311.jpg"
+    },
+    {
+      "id": 312,
+      "name": "Budget Build G2",
+      "category": "ReadySystems",
+      "description": "Ryzen 5 5600X, GTX 1660 Super, 16GB RAM, 512GB SSD",
+      "price": 899,
+      "icon": "🖥️",
+      "image": "http://localhost:5000/images/312.jpg"
+    },
+    {
+      "id": 313,
+      "name": "Ultimate Editing W7",
+      "category": "ReadySystems",
+      "description": "Intel Xeon W-2295, RTX 4080, 64GB RAM, 4TB NVMe SSD",
+      "price": 4499,
+      "icon": "💻",
+      "image": "http://localhost:5000/images/313.jpg"
+    },
+    {
+      "id": 314,
+      "name": "Esports Pro F1",
+      "category": "ReadySystems",
+      "description": "Ryzen 7 5800X3D, RTX 4070 Super, 32GB RAM, 1TB NVMe SSD",
+      "price": 1799,
+      "icon": "🖥️",
+      "image": "http://localhost:5000/images/314.jpg"
+    },
+    {
+      "id": 315,
+      "name": "Office Silent Mini",
+      "category": "ReadySystems",
+      "description": "Intel i5-12600, Integrated Graphics, 8GB RAM, 512GB SSD",
+      "price": 599,
+      "icon": "💻",
+      "image": "http://localhost:5000/images/315.jpg"
+    },
+    {
+      "id": 316,
+      "name": "AI Development Rig A1",
+      "category": "ReadySystems",
+      "description": "AMD Ryzen 9 7950X, RTX 4090, 128GB RAM, 8TB NVMe SSD",
+      "price": 6999,
+      "icon": "🖥️",
+      "image": "http://localhost:5000/images/316.jpg"
+    },
+    {
+      "id": 317,
+      "name": "Portable Creator X5",
+      "category": "ReadySystems",
+      "description": "Intel i7-13700H, RTX 4060 Laptop GPU, 32GB RAM, 1TB NVMe SSD",
+      "price": 2399,
+      "icon": "💻",
+      "image": "http://localhost:5000/images/317.jpg"
+    },
+    {
+      "id": 318,
+      "name": "Game Starter Kit B4",
+      "category": "ReadySystems",
+      "description": "Intel i5-12400F, RTX 3050, 16GB RAM, 512GB SSD",
+      "price": 799,
+      "icon": "🖥️",
+      "image": "http://localhost:5000/images/318.jpg"
+    },
+    {
+      "id": 319,
+      "name": "Creator Studio Ultra",
+      "category": "ReadySystems",
+      "description": "Intel i9-14900K, RTX 4080 Super, 64GB RAM, 2TB NVMe SSD",
+      "price": 3999,
+      "icon": "💻",
+      "image": "http://localhost:5000/images/319.jpg"
+    },
+    {
+      "id": 320,
+      "name": "Compact Gamer N3",
+      "category": "ReadySystems",
+      "description": "Ryzen 5 7600, RTX 4060, 16GB RAM, 1TB NVMe SSD",
+      "price": 1099,
+      "icon": "🖥️",
+      "image": "http://localhost:5000/images/320.jpg"
+    },
+    {
+      "id": 56,
+      "name": "ASUS ROG Strix Z790-E Gaming WiFi",
+      "category": "Motherboard",
+      "price": 399,
+      "image": "http://localhost:5000/images/56.jpg"
+    },
+    {
+      "id": 57,
+      "name": "MSI MPG B650 Carbon WiFi",
+      "category": "Motherboard",
+      "price": 279,
+      "image": "http://localhost:5000/images/57.jpg"
+    },
+    {
+      "id": 58,
+      "name": "Gigabyte X670 Aorus Master",
+      "category": "Motherboard",
+      "price": 349,
+      "image": "http://localhost:5000/images/58.jpg"
+    },
+    {
+      "id": 59,
+      "name": "ASRock B550 Steel Legend",
+      "category": "Motherboard",
+      "price": 179,
+      "image": "http://localhost:5000/images/59.jpg"
+    },
+    {
+      "id": 60,
+      "name": "ASUS TUF Gaming B660M-Plus WiFi",
+      "category": "Motherboard",
+      "price": 159,
+      "image": "http://localhost:5000/images/60.jpg"
+    },
+    {
+      "id": 61,
+      "name": "MSI MEG Z790 ACE",
+      "category": "Motherboard",
+      "price": 599,
+      "image": "http://localhost:5000/images/61.jpg"
+    },
+    {
+      "id": 62,
+      "name": "Gigabyte Z690 Aorus Ultra",
+      "category": "Motherboard",
+      "price": 289,
+      "image": "http://localhost:5000/images/62.jpg"
+    },
+    {
+      "id": 63,
+      "name": "ASRock X570 Phantom Gaming X",
+      "category": "Motherboard",
+      "price": 249,
+      "image": "http://localhost:5000/images/63.jpg"
+    },
+    {
+      "id": 64,
+      "name": "ASUS Prime B450M-A II",
+      "category": "Motherboard",
+      "price": 89,
+      "image": "http://localhost:5000/images/64.jpg"
+    },
+    {
+      "id": 65,
+      "name": "MSI B450 Tomahawk Max II",
+      "category": "Motherboard",
+      "price": 99,
+      "image": "http://localhost:5000/images/65.jpg"
+    },
+    {
+      "id": 66,
+      "name": "Gigabyte B660M DS3H AX",
+      "category": "Motherboard",
+      "price": 119,
+      "image": "http://localhost:5000/images/66.jpg"
+    },
+    {
+      "id": 67,
+      "name": "ASRock H610M-HDV/M.2",
+      "category": "Motherboard",
+      "price": 75,
+      "image": "http://localhost:5000/images/67.jpg"
+    },
+    {
+      "id": 68,
+      "name": "ASUS ROG Crosshair X670E Hero",
+      "category": "Motherboard",
+      "price": 479,
+      "image": "http://localhost:5000/images/68.jpg"
+    },
+    {
+      "id": 69,
+      "name": "MSI PRO B660M-P DDR4",
+      "category": "Motherboard",
+      "price": 89,
+      "image": "http://localhost:5000/images/69.jpg"
+    },
+    {
+      "id": 70,
+      "name": "Gigabyte X299X Aorus Master",
+      "category": "Motherboard",
+      "price": 379,
+      "image": "http://localhost:5000/images/70.jpg"
+    },
+    {
+      "id": 71,
+      "name": "Samsung 990 Pro 2TB NVMe",
+      "category": "SSD",
+      "price": 229,
+      "image": "http://localhost:5000/images/71.jpg"
+    },
+    {
+      "id": 72,
+      "name": "WD Black SN850X 1TB NVMe",
+      "category": "SSD",
+      "price": 129,
+      "image": "http://localhost:5000/images/72.jpg"
+    },
+    {
+      "id": 73,
+      "name": "Crucial P5 Plus 2TB NVMe",
+      "category": "SSD",
+      "price": 179,
+      "image": "http://localhost:5000/images/73.jpg"
+    },
+    {
+      "id": 74,
+      "name": "Kingston KC3000 1TB NVMe",
+      "category": "SSD",
+      "price": 119,
+      "image": "http://localhost:5000/images/74.jpg"
+    },
+    {
+      "id": 75,
+      "name": "Seagate FireCuda 530 2TB NVMe",
+      "category": "SSD",
+      "price": 199,
+      "image": "http://localhost:5000/images/75.jpg"
+    },
+    {
+      "id": 76,
+      "name": "Corsair MP600 Pro XT 1TB NVMe",
+      "category": "SSD",
+      "price": 109,
+      "image": "http://localhost:5000/images/76.jpg"
+    },
+    {
+      "id": 77,
+      "name": "ADATA XPG Gammix S70 Blade 2TB NVMe",
+      "category": "SSD",
+      "price": 189,
+      "image": "http://localhost:5000/images/77.jpg"
+    },
+    {
+      "id": 78,
+      "name": "Samsung 870 QVO 4TB SATA",
+      "category": "SSD",
+      "price": 299,
+      "image": "http://localhost:5000/images/78.jpg"
+    },
+    {
+      "id": 79,
+      "name": "WD Blue SA510 1TB SATA",
+      "category": "SSD",
+      "price": 69,
+      "image": "http://localhost:5000/images/79.jpg"
+    },
+    {
+      "id": 80,
+      "name": "Crucial MX500 2TB SATA",
+      "category": "SSD",
+      "price": 119,
+      "image": "http://localhost:5000/images/80.jpg"
+    },
+    {
+      "id": 81,
+      "name": "Kingston A2000 500GB NVMe",
+      "category": "SSD",
+      "price": 49,
+      "image": "http://localhost:5000/images/81.jpg"
+    },
+    {
+      "id": 82,
+      "name": "Seagate BarraCuda Q5 1TB NVMe",
+      "category": "SSD",
+      "price": 89,
+      "image": "http://localhost:5000/images/82.jpg"
+    },
+    {
+      "id": 83,
+      "name": "Corsair MP400 4TB NVMe",
+      "category": "SSD",
+      "price": 379,
+      "image": "http://localhost:5000/images/83.jpg"
+    },
+    {
+      "id": 84,
+      "name": "ADATA SU800 2TB SATA",
+      "category": "SSD",
+      "price": 149,
+      "image": "http://localhost:5000/images/84.jpg"
+    },
+    {
+      "id": 85,
+      "name": "PNY CS3030 1TB NVMe",
+      "category": "SSD",
+      "price": 79,
+      "image": "http://localhost:5000/images/85.jpg"
+    },
+    {
+      "id": 86,
+      "name": "Corsair RM850x 850W 80+ Gold",
+      "category": "PSU",
+      "price": 149,
+      "image": "http://localhost:5000/images/86.jpg"
+    },
+    {
+      "id": 87,
+      "name": "Seasonic Focus GX-750 750W 80+ Gold",
+      "category": "PSU",
+      "price": 129,
+      "image": "http://localhost:5000/images/87.jpg"
+    },
+    {
+      "id": 88,
+      "name": "EVGA SuperNOVA 1000 G5 1000W 80+ Gold",
+      "category": "PSU",
+      "price": 199,
+      "image": "http://localhost:5000/images/88.jpg"
+    },
+    {
+      "id": 89,
+      "name": "Cooler Master V850 Gold V2 850W",
+      "category": "PSU",
+      "price": 139,
+      "image": "http://localhost:5000/images/89.jpg"
+    },
+    {
+      "id": 90,
+      "name": "be quiet! Straight Power 11 750W 80+ Platinum",
+      "category": "PSU",
+      "price": 179,
+      "image": "http://localhost:5000/images/90.jpg"
+    },
+    {
+      "id": 91,
+      "name": "Thermaltake Toughpower GF1 850W 80+ Gold",
+      "category": "PSU",
+      "price": 129,
+      "image": "http://localhost:5000/images/91.jpg"
+    },
+    {
+      "id": 92,
+      "name": "ASUS ROG Strix 1000W 80+ Gold",
+      "category": "PSU",
+      "price": 189,
+      "image": "http://localhost:5000/images/92.jpg"
+    },
+    {
+      "id": 93,
+      "name": "MSI MPG A850GF 850W 80+ Gold",
+      "category": "PSU",
+      "price": 139,
+      "image": "http://localhost:5000/images/93.jpg"
+    },
+    {
+      "id": 94,
+      "name": "FSP Hydro G Pro 850W 80+ Gold",
+      "category": "PSU",
+      "price": 129,
+      "image": "http://localhost:5000/images/94.jpg"
+    },
+    {
+      "id": 95,
+      "name": "Corsair HX1200 1200W 80+ Platinum",
+      "category": "PSU",
+      "price": 269,
+      "image": "http://localhost:5000/images/95.jpg"
+    },
+    {
+      "id": 96,
+      "name": "Seasonic Prime TX-850 850W 80+ Titanium",
+      "category": "PSU",
+      "price": 229,
+      "image": "http://localhost:5000/images/96.jpg"
+    },
+    {
+      "id": 97,
+      "name": "EVGA 600 BR 600W 80+ Bronze",
+      "category": "PSU",
+      "price": 59,
+      "image": "http://localhost:5000/images/97.jpg"
+    },
+    {
+      "id": 98,
+      "name": "Cooler Master MWE Gold 650W",
+      "category": "PSU",
+      "price": 79,
+      "image": "http://localhost:5000/images/98.jpg"
+    },
+    {
+      "id": 99,
+      "name": "be quiet! Dark Power Pro 12 1500W 80+ Titanium",
+      "category": "PSU",
+      "price": 449,
+      "image": "http://localhost:5000/images/99.jpg"
+    },
+    {
+      "id": 100,
+      "name": "Thermaltake Smart BX1 550W 80+ Bronze",
+      "category": "PSU",
+      "price": 49,
+      "image": "http://localhost:5000/images/100.jpg"
+    },
+    {
+      "id": 101,
+      "name": "NZXT H510 Mid Tower",
+      "category": "Case",
+      "price": 79,
+      "image": "http://localhost:5000/images/101.jpg"
+    },
+    {
+      "id": 102,
+      "name": "Corsair iCUE 4000X RGB Mid Tower",
+      "category": "Case",
+      "price": 119,
+      "image": "http://localhost:5000/images/102.jpg"
+    },
+    {
+      "id": 103,
+      "name": "Fractal Design Meshify C",
+      "category": "Case",
+      "price": 99,
+      "image": "http://localhost:5000/images/103.jpg"
+    },
+    {
+      "id": 104,
+      "name": "Lian Li PC-O11 Dynamic",
+      "category": "Case",
+      "price": 139,
+      "image": "http://localhost:5000/images/104.jpg"
+    },
+    {
+      "id": 105,
+      "name": "Cooler Master MasterBox TD500 Mesh",
+      "category": "Case",
+      "price": 89,
+      "image": "http://localhost:5000/images/105.jpg"
+    },
+    {
+      "id": 106,
+      "name": "Phanteks Eclipse P500A",
+      "category": "Case",
+      "price": 129,
+      "image": "http://localhost:5000/images/106.jpg"
+    },
+    {
+      "id": 107,
+      "name": "be quiet! Pure Base 500DX",
+      "category": "Case",
+      "price": 109,
+      "image": "http://localhost:5000/images/107.jpg"
+    },
+    {
+      "id": 108,
+      "name": "Thermaltake View 71 TG RGB",
+      "category": "Case",
+      "price": 159,
+      "image": "http://localhost:5000/images/108.jpg"
+    },
+    {
+      "id": 109,
+      "name": "NZXT H7 Flow",
+      "category": "Case",
+      "price": 129,
+      "image": "http://localhost:5000/images/109.jpg"
+    },
+    {
+      "id": 110,
+      "name": "Corsair 5000D Airflow",
+      "category": "Case",
+      "price": 149,
+      "image": "http://localhost:5000/images/110.jpg"
+    },
+    {
+      "id": 111,
+      "name": "Lian Li Lancool 215",
+      "category": "Case",
+      "price": 89,
+      "image": "http://localhost:5000/images/111.jpg"
+    },
+    {
+      "id": 112,
+      "name": "Fractal Design Define 7",
+      "category": "Case",
+      "price": 169,
+      "image": "http://localhost:5000/images/112.jpg"
+    },
+    {
+      "id": 113,
+      "name": "Cooler Master HAF 700 Evo",
+      "category": "Case",
+      "price": 399,
+      "image": "http://localhost:5000/images/113.jpg"
+    },
+    {
+      "id": 114,
+      "name": "Phanteks Enthoo Pro 2",
+      "category": "Case",
+      "price": 139,
+      "image": "http://localhost:5000/images/114.jpg"
+    },
+    {
+      "id": 115,
+      "name": "Thermaltake Core P3 TG",
+      "category": "Case",
+      "price": 119,
+      "image": "http://localhost:5000/images/115.jpg"
+    },
+    {
+      "id": 116,
+      "name": "ASUS TUF Gaming VG27AQ 27\" QHD 165Hz",
+      "category": "Monitor",
+      "price": 349,
+      "image": "http://localhost:5000/images/116.jpg"
+    },
+    {
+      "id": 117,
+      "name": "LG UltraGear 27GN950-B 27\" 4K 144Hz",
+      "category": "Monitor",
+      "price": 799,
+      "image": "http://localhost:5000/images/117.jpg"
+    },
+    {
+      "id": 118,
+      "name": "Samsung Odyssey G7 32\" QHD 240Hz",
+      "category": "Monitor",
+      "price": 699,
+      "image": "http://localhost:5000/images/118.jpg"
+    },
+    {
+      "id": 119,
+      "name": "Dell Alienware AW3423DW 34\" QD-OLED",
+      "category": "Monitor",
+      "price": 1299,
+      "image": "http://localhost:5000/images/119.jpg"
+    },
+    {
+      "id": 120,
+      "name": "Gigabyte M32U 32\" 4K 144Hz",
+      "category": "Monitor",
+      "price": 749,
+      "image": "http://localhost:5000/images/120.jpg"
+    },
+    {
+      "id": 121,
+      "name": "MSI Optix MAG274QRF-QD 27\" QHD 165Hz",
+      "category": "Monitor",
+      "price": 399,
+      "image": "http://localhost:5000/images/121.jpg"
+    },
+    {
+      "id": 122,
+      "name": "BenQ EX3501R 35\" Ultrawide",
+      "category": "Monitor",
+      "price": 699,
+      "image": "http://localhost:5000/images/122.jpg"
+    },
+    {
+      "id": 123,
+      "name": "AOC CQ32G1 31.5\" QHD 144Hz",
+      "category": "Monitor",
+      "price": 299,
+      "image": "http://localhost:5000/images/123.jpg"
+    },
+    {
+      "id": 124,
+      "name": "ViewSonic Elite XG270QG 27\" QHD 165Hz",
+      "category": "Monitor",
+      "price": 499,
+      "image": "http://localhost:5000/images/124.jpg"
+    },
+    {
+      "id": 125,
+      "name": "ASUS ProArt Display PA32UCX 32\" 4K HDR",
+      "category": "Monitor",
+      "price": 2999,
+      "image": "http://localhost:5000/images/125.jpg"
+    },
+    {
+      "id": 126,
+      "name": "LG 34WN80C-B 34\" Ultrawide",
+      "category": "Monitor",
+      "price": 599,
+      "image": "http://localhost:5000/images/126.jpg"
+    },
+    {
+      "id": 127,
+      "name": "Samsung Smart Monitor M8 32\" 4K",
+      "category": "Monitor",
+      "price": 699,
+      "image": "http://localhost:5000/images/127.jpg"
+    },
+    {
+      "id": 128,
+      "name": "HP Omen 27i 27\" QHD 165Hz",
+      "category": "Monitor",
+      "price": 429,
+      "image": "http://localhost:5000/images/128.jpg"
+    },
+    {
+      "id": 129,
+      "name": "Acer Predator X38 38\" Ultrawide",
+      "category": "Monitor",
+      "price": 1699,
+      "image": "http://localhost:5000/images/129.jpg"
+    },
+    {
+      "id": 130,
+      "name": "Philips 346E2CUAE 34\" Ultrawide",
+      "category": "Monitor",
+      "price": 399,
+      "image": "http://localhost:5000/images/130.jpg"
+    },
+    {
+      "id": 131,
+      "name": "Logitech G Pro X Mechanical Keyboard",
+      "category": "Keyboard",
+      "price": 149,
+      "image": "http://localhost:5000/images/131.jpg"
+    },
+    {
+      "id": 132,
+      "name": "Razer Huntsman Elite",
+      "category": "Keyboard",
+      "price": 199,
+      "image": "http://localhost:5000/images/132.jpg"
+    },
+    {
+      "id": 133,
+      "name": "Corsair K95 RGB Platinum XT",
+      "category": "Keyboard",
+      "price": 229,
+      "image": "http://localhost:5000/images/133.jpg"
+    },
+    {
+      "id": 134,
+      "name": "SteelSeries Apex Pro",
+      "category": "Keyboard",
+      "price": 199,
+      "image": "http://localhost:5000/images/134.jpg"
+    },
+    {
+      "id": 135,
+      "name": "HyperX Alloy Origins",
+      "category": "Keyboard",
+      "price": 99,
+      "image": "http://localhost:5000/images/135.jpg"
+    },
+    {
+      "id": 136,
+      "name": "Ducky One 2 Mini",
+      "category": "Keyboard",
+      "price": 109,
+      "image": "http://localhost:5000/images/136.jpg"
+    },
+    {
+      "id": 137,
+      "name": "ASUS ROG Strix Scope RX",
+      "category": "Keyboard",
+      "price": 139,
+      "image": "http://localhost:5000/images/137.jpg"
+    },
+    {
+      "id": 138,
+      "name": "Cooler Master CK552",
+      "category": "Keyboard",
+      "price": 89,
+      "image": "http://localhost:5000/images/138.jpg"
+    },
+    {
+      "id": 139,
+      "name": "Keychron K2 Wireless Mechanical",
+      "category": "Keyboard",
+      "price": 89,
+      "image": "http://localhost:5000/images/139.jpg"
+    },
+    {
+      "id": 140,
+      "name": "Razer BlackWidow V3 Pro",
+      "category": "Keyboard",
+      "price": 229,
+      "image": "http://localhost:5000/images/140.jpg"
+    },
+    {
+      "id": 141,
+      "name": "Logitech G915 TKL Wireless",
+      "category": "Keyboard",
+      "price": 249,
+      "image": "http://localhost:5000/images/141.jpg"
+    },
+    {
+      "id": 142,
+      "name": "Akko 3068B Plus",
+      "category": "Keyboard",
+      "price": 119,
+      "image": "http://localhost:5000/images/142.jpg"
+    },
+    {
+      "id": 143,
+      "name": "Anne Pro 2",
+      "category": "Keyboard",
+      "price": 99,
+      "image": "http://localhost:5000/images/143.jpg"
+    },
+    {
+      "id": 144,
+      "name": "Varmilo VA87M",
+      "category": "Keyboard",
+      "price": 149,
+      "image": "http://localhost:5000/images/144.jpg"
+    },
+    {
+      "id": 145,
+      "name": "Royal Kludge RK61",
+      "category": "Keyboard",
+      "price": 69,
+      "image": "http://localhost:5000/images/145.jpg"
+    },
+    {
+      "id": 146,
+      "name": "Logitech G Pro X Superlight",
+      "category": "Mouse",
+      "price": 149,
+      "image": "http://localhost:5000/images/146.jpg"
+    },
+    {
+      "id": 147,
+      "name": "Razer DeathAdder V3 Pro",
+      "category": "Mouse",
+      "price": 159,
+      "image": "http://localhost:5000/images/147.jpg"
+    },
+    {
+      "id": 148,
+      "name": "Glorious Model O Wireless",
+      "category": "Mouse",
+      "price": 99,
+      "image": "http://localhost:5000/images/148.jpg"
+    },
+    {
+      "id": 149,
+      "name": "SteelSeries Aerox 9 Wireless",
+      "category": "Mouse",
+      "price": 149,
+      "image": "http://localhost:5000/images/149.jpg"
+    },
+    {
+      "id": 150,
+      "name": "Corsair Dark Core RGB Pro SE",
+      "category": "Mouse",
+      "price": 89,
+      "image": "http://localhost:5000/images/150.jpg"
+    },
+    {
+      "id": 151,
+      "name": "Cooler Master MM731",
+      "category": "Mouse",
+      "price": 69,
+      "image": "http://localhost:5000/images/151.jpg"
+    },
+    {
+      "id": 152,
+      "name": "ASUS ROG Spatha X",
+      "category": "Mouse",
+      "price": 149,
+      "image": "http://localhost:5000/images/152.jpg"
+    },
+    {
+      "id": 153,
+      "name": "HyperX Pulsefire Haste",
+      "category": "Mouse",
+      "price": 59,
+      "image": "http://localhost:5000/images/153.jpg"
+    },
+    {
+      "id": 154,
+      "name": "Zowie EC2",
+      "category": "Mouse",
+      "price": 69,
+      "image": "http://localhost:5000/images/154.jpg"
+    },
+    {
+      "id": 155,
+      "name": "Razer Basilisk V3",
+      "category": "Mouse",
+      "price": 79,
+      "image": "http://localhost:5000/images/155.jpg"
+    },
+    {
+      "id": 156,
+      "name": "Logitech G502 X Plus",
+      "category": "Mouse",
+      "price": 159,
+      "image": "http://localhost:5000/images/156.jpg"
+    },
+    {
+      "id": 157,
+      "name": "Finalmouse Starlight-12",
+      "category": "Mouse",
+      "price": 189,
+      "image": "http://localhost:5000/images/157.jpg"
+    },
+    {
+      "id": 158,
+      "name": "Roccat Kone Pro Air",
+      "category": "Mouse",
+      "price": 129,
+      "image": "http://localhost:5000/images/158.jpg"
+    },
+    {
+      "id": 159,
+      "name": "Glorious Model D Wireless",
+      "category": "Mouse",
+      "price": 99,
+      "image": "http://localhost:5000/images/159.jpg"
+    },
+    {
+      "id": 160,
+      "name": "Logitech MX Master 3S",
+      "category": "Mouse",
+      "price": 99,
+      "image": "http://localhost:5000/images/160.jpg"
+    }
+  ]
+}
