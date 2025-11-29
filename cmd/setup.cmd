@@ -11,17 +11,13 @@ if %ERRORLEVEL% NEQ 0 (
     exit /b
 )
 
-:: Backend dependencies
-echo Installing backend dependencies...
-cd ../backend
-npm install
-cd ..
+echo Starting backend dependencies installation...
+start /wait cmd /c "cd ../backend && npm install"
 
-:: Frontend dependencies
-echo Installing frontend dependencies...
-cd ../client
-npm install
-cd ..
+echo Starting frontend dependencies installation...
+start /wait cmd /c "cd ../client && npm install"
 
+echo ================================
 echo Setup completed successfully!
+echo Press any key to exit...
 pause

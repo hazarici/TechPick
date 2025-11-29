@@ -9,7 +9,8 @@
       "address": "Germany",
       "paymentMethod": "Debit",
       "orders": [
-        "1764427078435"
+        "1764427078435",
+        "1764434540986"
       ]
     }
   ],
@@ -87,6 +88,26 @@
       ],
       "total": 1799,
       "date": "2025-11-29T14:37:58.435Z"
+    },
+    {
+      "id": "1764434540986",
+      "userId": "1764427072724",
+      "items": [
+        {
+          "productId": 129,
+          "quantity": 1,
+          "price": 1699,
+          "name": "Acer Predator X38 38\" Ultrawide"
+        },
+        {
+          "productId": 301,
+          "quantity": 1,
+          "price": 1799,
+          "name": "Gaming Beast X1"
+        }
+      ],
+      "total": 3498,
+      "date": "2025-11-29T16:42:20.986Z"
     }
   ],
   "products": [
