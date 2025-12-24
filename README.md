@@ -16,16 +16,22 @@ Node.js (LTS) installed from https://nodejs.org/
 ## Installation and Run
 
 ### Backend
+
 cd backend
+
 npm install
+
 npm start
 
 Backend runs on http://localhost:5000
 
 
 ### Frontend
+
 cd client
+
 npm install
+
 npm start
 
 Frontend runs on http://localhost:3000
